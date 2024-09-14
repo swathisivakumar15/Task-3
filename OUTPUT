@@ -1,0 +1,75 @@
+'Tis better to be vile than vile esteemed,
+When not to be receives reproach of being;
+And the just pleasure lost, which is so deemed
+Not by our feeling, but by others' seeing:
+For why should others' f
+Requirement already satisfied: markovify in /usr/local/lib/python3.10/dist-packages (0.9.4)
+Requirement already satisfied: unidecode in /usr/local/lib/python3.10/dist-packages (from markovify) (1.3.8)
+None
+None
+None
+None
+order 1
+Or on my deeds must not be shown; Unless this general evil they that I think good?
+
+order 4
+Or on my frailties why are frailer spies, Which in their wills count bad what I think good?
+No, I am that I am, and they themselves be bevel; By their rank thoughts, my deeds must not be shown; Unless this general evil they maintain, All men are bad and in their wills count bad what I think good?
+None
+Let the priest in surplice white, That defunctive music can, Be the death-divining swan, Lest the requiem lack his right.
+
+Property was thus appall'd, That defunctive music can, Be the death-divining swan, Lest the requiem lack his right.
+
+Beauty, truth, and rarity.
+
+Let the priest in surplice white, That defunctive music can, Be the death-divining swan, Lest the requiem lack his right.
+
+So they lov'd, as love in twain Had the essence but in one; Two distincts, division grow together; To the phoenix and they that level At my abuses reckon up their badness reign.
+
+To this threne To the phoenix and the dove, Co-supreme and stars of love; As chorus to their rank though they themselves be bevel; By their wills count bad what I think good?
+
+From this session interdict Every fowl of tyrant wing, Save the eagle, feather'd king: Keep the obsequy so strict.
+
+Property was thus appall'd, That the same; Single nature's double name Neither two nor one was call'd.
+
+From this session interdict Every fowl of tyrant wing, Save the eagle, feather'd king: Keep the obsequy so strict.
+
+From this session interdict Every fowl of tyrant wing, Save the eagle, feather'd king: Keep the obsequy so strict.
+
+Let the priest in surplice white, That defunctive music can, Be the death-divining swan, Lest the requiem lack his right.
+
+That it cried how true a twain Seemeth this concordant one!
+
+Beauty, truth, and rarity.
+
+So they lov'd, as love in twain Seemeth this concordant one!
+
+Foul pre-currer of the essence but cannot be:
+Every fowl of love;
+That the turtle's loyal breast
+So between them love was not the obsequy so remain.
+Grace in itself confounded,
+And thou, shrieking harbinger,
+Whereupon it were so well compounded.
+That the anthem doth commence:
+Distance, and constancy is dead;
+Leaving no space was seen
+In a prayer.
+Co-supreme and no posterity:-
+Lest the other's mine.
+Seemeth this troop come thou not asunder;
+Either the dove,
+That the essence:
+For the and be.
+From this confound concordant one was not asunded.
+With thou, true a wonder mak'st
+To the requiem love;
+Property was slain.
+To the self concordant one;
+Reason, in cinder mak'st,
+Keep ther tragic scene.
+Love hath the and no posterity.
+For these death-division none
+Keep the so well come ther,
+As chorus to this seen
+import json\nmood_data = json.loads(open("/content/poem3.csv").read())\nmoods = mood_data[\'moods\']\nmoods_text = "\n".join(moods)\nmoods_char_model = LinesByChar(moods_text, state_size=3)\nfor i in range(24):\n    print(moods_char_model.make_sentence()
